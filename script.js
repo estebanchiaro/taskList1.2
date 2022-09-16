@@ -46,6 +46,17 @@ function addTodo(event){
 
     //clear todo input value
     todoInput.value="";
+
+  // ******** Edit to do ********
+    // const i=true
+    // todoList.addEventListener('touchstart',(e)=>{
+    //     {console.log('hola')
+            
+    //          }
+    // })
+  
+
+
 }
 
 function deleteCheck(e){
@@ -82,7 +93,7 @@ function saveLocalTodos(todo){
 }
 
 function getTodos(){
-    console.log('hello')
+    
     let todos;
     if(localStorage.getItem('todos')=== null){
         todos=[];
